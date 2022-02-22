@@ -1,0 +1,56 @@
+{
+  "tasks" : [
+    {
+    "id" : 1 ,
+    "title" : "learn redux",
+    "descriptions" : "this is to learn redux",
+    "completed" : false ,
+    "date" : "21-02-2022"
+  },
+  {
+    "id" : 2 ,
+    "title" : "learn json",
+    "descriptions" : "this is to learn json",
+    "completed" : false ,
+    "date" : "21-02-2022"
+  },
+  {
+    "id" : 3 ,
+    "title" : "learn react",
+    "descriptions" : "this is to learn react",
+    "completed" : false ,
+    "date" : "21-02-2022"
+  },
+  {
+    "id" : 4 ,
+    "title" : "learn angular",
+    "descriptions" : "this is to learn angular",
+    "completed" : false ,
+    "date" : "21-02-2022"
+  },
+  {
+    "id" : 5 ,
+    "title" : "learn javascript",
+    "descriptions" : "this is to learn javascript",
+    "completed" : false ,
+    "date" : "21-02-2022"
+  }
+],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

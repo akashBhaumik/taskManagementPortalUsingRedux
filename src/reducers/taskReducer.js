@@ -1,21 +1,14 @@
 import { ADD_TASK, DELETE_TASK } from "../config/actionTypes";
 import Task from "../models/Task"
-const initialState = [
-    new Task(1 , "Learn redux"),
-    new Task(1 , "Learn redux-saga")
-]
+const initialState = []
 export const taskReducer = (state = initialState, action) => {
     switch (action.type) {
         case ADD_TASK:
             const {data} = action
-            const task = new Task (
-                state.length +1 ,
-                 data.title , 
-                 data.description 
-            )
+            console.log("reducer = ", data)
             return [
                 ...state ,
-                task
+                data
             ]
         case DELETE_TASK:
             const {id} = action
